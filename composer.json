@@ -1,0 +1,65 @@
+{
+  "name": "Frago9876543210/MCPE-Proxy",
+  "description": "Proxy for a Minecraft BE. It allows you to intercept packets and send packets.",
+  "type": "project",
+  "homepage": "https://github.com/Frago9876543210/MCPE-Proxy",
+  "license": "GPL-3.0",
+  "require": {
+	"php": ">=7.2.0RC3",
+	"ext-bcmath": "*",
+	"ext-curl": "*",
+	"ext-hash": "*",
+	"ext-json": "*",
+	"ext-mbstring": "*",
+	"ext-openssl": "*",
+	"ext-pcre": "*",
+	"ext-phar": "*",
+	"ext-pthreads": ">=3.1.7dev",
+	"ext-reflection": "*",
+	"ext-sockets": "*",
+	"ext-spl": "*",
+	"ext-yaml": ">=2.0.0",
+	"ext-zip": "*",
+	"ext-zlib": ">=1.2.11",
+	"pocketmine/pocketmine-mp": "dev-master",
+	"pocketmine/raklib": "dev-master",
+	"pocketmine/spl": "dev-master",
+	"pocketmine/binaryutils": "dev-master",
+	"pocketmine/nbt": "dev-master",
+	"pocketmine/math": "dev-master"
+  },
+  "autoload": {
+	"psr-4": {
+	  "": [
+		"src"
+	  ]
+	}
+  },
+  "repositories": [
+	{
+	  "type": "vcs",
+	  "name": "pocketmine/pocketmine-mp",
+	  "url": "https://github.com/pmmp/PocketMine-MP"
+	},
+	{
+	  "type": "vcs",
+	  "url": "https://github.com/pmmp/RakLib"
+	},
+	{
+	  "type": "vcs",
+	  "url": "https://github.com/pmmp/SPL"
+	},
+	{
+	  "type": "vcs",
+	  "url": "https://github.com/pmmp/BinaryUtils"
+	},
+	{
+	  "type": "vcs",
+	  "url": "https://github.com/pmmp/NBT"
+	},
+	{
+	  "type": "vcs",
+	  "url": "https://github.com/pmmp/Math"
+	}
+  ]
+}
